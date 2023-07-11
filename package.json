@@ -12,7 +12,7 @@
         "vite": "^3.0.0"
     },
     "dependencies": {
-        "@popperjs/core": "^2.11.6",
+        "@popperjs/core": "^2.11.6npm run dev",
         "bootstrap": "^5.2.2"
     }
 }

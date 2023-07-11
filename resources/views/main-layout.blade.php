@@ -19,6 +19,8 @@
 
     <main class="bg-light">
         <h1>ciaooo</h1>
+        @include('components.header');
+        @include('components.footer');
     </main>
 
 </body>
