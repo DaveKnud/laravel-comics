@@ -21,6 +21,11 @@
         <h1>ciaooo</h1>
         @include('components.header');
         @include('components.footer');
+
+        @foreach ($fumetti as $fumetto)
+            <div class="card">Fumetto</div>
+            <div>{{ $fumetto['title'] }}</div>
+        @endforeach
     </main>
 
 </body>
